@@ -2,13 +2,57 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Amigas Cifradas</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <div id="container1" class="fondoPastel">
+      <h1>AMIGAS CIFRADAS</h1>
+      <h2>¡Hola!</h2>
+      <h2>¿Quienes somos?</h2>
+      <p>Amigas Cifradas nace como una instancia de protección entre mujeres en caso de encontrarnos en alguna situación de incomodidad o riesgo, pudiendo comunicarlo y recibir la ayuda requerida </p>
+      <h4>Ingresa tu nombre aquí</h4>
+
+      <input type="text" placeholder="Nombre" id="write_name">
+      <button  id="btn_enter">VAMOS</button>
     </div>
+
+      <div id="container2" class="fondoPastel">
+        <h1>COMENCEMOS</h1>
+        <h2 id="user_name"></h2>
+        <input type="radio" name="date">Cita con algún desconocido
+        <input type="radio" name="uber"> Viaje en Uber
+        <input type="radio" name="bullyng">Acoso
+        <input type="radio" name="walkAlone"> Caminando sola por la calle
+        <input type="radio" name="travellAlone"> Viaje sola
+        <input type="radio" name="other"> Otro
+        <button id="btn_select"> ENTER </button>
+      </div>
+
+
+      <div id="container3" class="fondoPastel">
+        <h1>¿Cuál es tu nivel de inseguridad?</h1>
+        VERDE= sólo tengo incertidumbre 1-10 <input type="number" placeholder="Ingresa tu número aquí">
+        AMARILLO= tengo miedo 11-20 <input type="number" placeholder="Ingresa tu número aquí">
+        ROJO= necesito un rescate 21-∞ <input type="number" placeholder="Ingresa tu número aquí">
+        <button id="btn_go"> GO </button>
+      </div>
+
+
+      <div id="container4" class="fondoPastel">
+        <h1>CHAT DE AMIGAS</h1>
+        <h3> Mensaje para pedir ayuda</h3>
+        <input type="text" placeholder="Escribre tu mensaje aquí" style="width:300px;height:50px">
+        <button id="cipher"> CIFRAR </button>
+        <button id="decipher">DESCIFRAR</button>
+        <input type="text"  style="width:300px;height:50px">
+
+        <button id="send">ENVIAR</button>
+        <button id="share">COMPARTIR</button>
+
+      </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
