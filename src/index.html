@@ -5,53 +5,71 @@
     <title>Amigas Cifradas</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  
+
   <body>
-    <div id="container1" class="fondoPastel">
-      <h1>AMIGAS CIFRADAS</h1>
-      <h2>¡Hola!</h2>
-      <h2>¿Quienes somos?</h2>
-      <p>Amigas Cifradas nace como una instancia de protección entre mujeres en caso de encontrarnos en alguna situación de incomodidad o riesgo, pudiendo comunicarlo y recibir la ayuda requerida </p>
-      <h4>Ingresa tu nombre aquí</h4>
 
-      <input type="text" placeholder="Nombre" id="write_name">
-      <button  id="btn_enter">VAMOS</button>
-    </div>
+<div id="container1" class="fondoPastel">
+<h1><img src="images (1).png" width="30" height="30"> AMIGAS CIFRADAS <img src="images (1).png" width="30" height="30"> </h1>
+<h2>¡Hola!</h2>
+<h2>¿Quienes somos?</h2>
+<p>Amigas Cifradas nace como una instancia de protección entre mujeres en caso de encontrarnos en alguna situación de incomodidad o riesgo, pudiendo comunicarlo y recibir la ayuda requerida </p>
+<h4>Ingresa tu nombre aquí</h4>
 
-      <div id="container2" class="fondoPastel">
-        <h1>COMENCEMOS</h1>
-        <h2 id="user_name"></h2>
-        <input type="radio" name="date">Cita con algún desconocido
-        <input type="radio" name="uber"> Viaje en Uber
-        <input type="radio" name="bullyng">Acoso
-        <input type="radio" name="walkAlone"> Caminando sola por la calle
-        <input type="radio" name="travellAlone"> Viaje sola
-        <input type="radio" name="other"> Otro
-        <button id="btn_select"> ENTER </button>
-      </div>
+<input type="text" placeholder="Nombre" id="write_name">
+<button  id="btn_enter">VAMOS</button>
+
+<p>Crea una red de contactos con amigas <img src= "glyph_woman_group-512.png" width="40" height="40"</p>
+<p>Define el nivel de tu inseguridad <img src="89-512.png" width="40" height="40"></p>
+<p>Encuentra el apoyo que buscas <img src="heart-compact-flat.png" width="40" height="40" </p>
+<p>¡Ya estás a SALVO! <img src="cloud-excellent-good-live-mark-ok-icon--9.png" width="40" height="40"</p>
 
 
-      <div id="container3" class="fondoPastel">
-        <h1>¿Cuál es tu nivel de inseguridad?</h1>
-        VERDE= sólo tengo incertidumbre 1-10 <input type="number" placeholder="Ingresa tu número aquí">
-        AMARILLO= tengo miedo 11-20 <input type="number" placeholder="Ingresa tu número aquí">
-        ROJO= necesito un rescate 21-∞ <input type="number" placeholder="Ingresa tu número aquí">
-        <button id="btn_go"> GO </button>
-      </div>
+</div>
+
+<div id="container2" class="fondoPastel">
+  <h1>COMENCEMOS</h1>
+  <h2 id="user_name"></h2>
+  <input type="radio" name="date">Cita con algún desconocido <img src="images (2).png"width="40" height="40">
+  <input type="radio" name="uber"> Viaje en Uber<img src="Uber_App_Icon.svg.png"width="40" height="40">
+  <input type="radio" name="bullyng">Acoso<img src="1-Access_Denied-512.png"width="40" height="40">
+  <input type="radio" name="walkAlone"> Caminando sola por la calle<img src="afraid_of__792957.png"width="40" height="40">
+  <input type="radio" name="travellAlone"> Viaje sola<img src="tour-512.png"width="40" height="40">
+  <input type="radio" name="other"> Otro<img src="2000px-Other.Icon-Only.dark.svg.png"width="40" height="40">
+  <button id="btn_select"> ENTER </button>
+</div>
 
 
-      <div id="container4" class="fondoPastel">
-        <h1>CHAT DE AMIGAS</h1>
-        <h3> Mensaje para pedir ayuda</h3>
-        <input type="text" placeholder="Escribre tu mensaje aquí" style="width:300px;height:50px">
-        <button id="cipher"> CIFRAR </button>
-        <button id="decipher">DESCIFRAR</button>
-        <input type="text"  style="width:300px;height:50px">
+<div id="container3" class="fondoPastel">
+  <h1>¿Cuál es tu nivel de inseguridad?</h1>
+  <img src="89-512.png" width="100" height="100">
+  <h4>VERDE= sólo tengo incertidumbre 1-10</h4><input type="number" placeholder="Ingresa tu número aquí">
+  <h4>AMARILLO= tengo miedo 11-20 </h4><input type="number" placeholder="Ingresa tu número aquí">
+  <h4>ROJO= necesito un rescate 21-∞ </h4><input type="number" placeholder="Ingresa tu número aquí">
+  <p>Mientras mayor sea el nivel de inseguridad, más indescifrable será tu mensaje</p>
+  <button id="btn_go"> GO </button>
+</div>
 
-        <button id="send">ENVIAR</button>
-        <button id="share">COMPARTIR</button>
 
-      </div>
+<div id="container4" class="fondoPastel">
+  <h1>CHAT DE AMIGAS</h1>
+  <h3> Escribe aquí tu mensaje </h3>
+  <textarea id="mesagge" type="text" placeholder="Escribre tu mensaje aquí" style="width:450px;height:150px"></textarea>
+  <button id="cipher"> CIFRAR </button>
+  <button id="decipher">DESCIFRAR</button>
+  <!--<input id="mesagge2" type="text" style="width:450px;height:150px">
+  <button id="send">ENVIAR</button>
+  <button id="share">COMPARTIR</button>-->
+
+</div>
+
+<div id="container5" class="fondoPastel">
+ <h1>CHAT DE AMIGAS</h1>
+ <h3> Este es tu mensaje </h3>
+ <textarea id="mesagge_2" type="text" style="width:450px;height:150px"></textarea>
+ <button id="send">ENVIAR</button>
+ <button id="share">COMPARTIR</button>
+</div>
+
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
