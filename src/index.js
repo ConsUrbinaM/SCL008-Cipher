@@ -5,7 +5,7 @@ document.getElementById('container4').style.display="none";
 document.getElementById('container5').style.display="none";
 
 
-/*const container=document.getElementById("container1");*/
+// funciones 1 pantalla
 
 const firstButton= document.getElementById('btn_enter');
 firstButton.addEventListener('click',() =>{
@@ -13,12 +13,6 @@ firstButton.addEventListener('click',() =>{
   let userText=  document.getElementById('user_name');
 user_name.innerHTML=`<h2>Bienvenida ${name}¿En qué situación te encuentras?</h2>`;
 
-
-/*const quarterButton=document.getElementById('cipher');
-  quarterButton.addEventListener('click',() => {
-  let encode= document.getElementById('message').value;
-  let encodeMessage=document.getElementById('mesagge2');
-  mesagge2.innerHTML=`<input ${encode} id="mesagge2" type="text" style="width:450px;height:150px">${encode}`;*/
 
   document.getElementById('container1').style.display="none";
   document.getElementById('container2').style.display="block";
@@ -41,9 +35,7 @@ document.getElementById('container4').style.display="block";
 
 })
 
-//4 pantalla
-
-
+//4 pantalla (acá es donde sucede la magia)
 
 const quarterButton=document.getElementById('cipher');
 quarterButton.addEventListener('click',() =>{
@@ -52,112 +44,25 @@ quarterButton.addEventListener('click',() =>{
   let encodeMesagge=document.getElementById('mesagge_2');
   encodeMesagge.innerHTML=`${encode}`;
 
+  let numberOffset=document.getElementById('offset').value;
+
+  function cipher(numberOffset,encode){
+    let result="";
+    for (let i=0;i<encode.length;i++){
+      let transformText=0;
+      transformText=encode.charCodeAt(i);
+      let concatenarCipher="";
+      concatenarCipher=String.fromCharCode((transformText-65+numberOffset)%26+65);
+      result+=concatenarCipher;
+          }
+          return result; 
+  }
+
+
 
   document.getElementById('container4').style.display="none";
   document.getElementById('container5').style.display="block";
 
 })
 
-  /*let encode= document.getElementById('message').value='mesagge2';
-  let encodeMessage= document.getElementById('message2');
-  message2.innerHTML=`${encode}`;
-
-  /*let encodeMessage=document.getElementById('message2');
-  message2.innerHTML=`${encode}`
-  document.getElementById('container4').style.display="none";
-  document.getElementById('container5').style.display="block";*/
-
-/*const firstButton= document.getElementById('btn_enter');
-firstButton.addEventListener('click',() =>{
-  let name= document.getElementById("write_name").value;
-  let userText=  document.getElementById('user_name');
-user_name.innerHTML=`<h2>Bienvenida ${name}¿En qué situación te encuentras?</h2>`;
-
-
-
-
-
-
-/*const fifthButton=
-
-const sixthButton= */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* function start(){
-
-document.getElementById('container1').style.display="block";
-document.getElementById('container2').style.display="none";
-document.getElementById('container3').style.display="none";
-document.getElementById('container4').style.display="none";
-
-
-}
-
-function loadName(){
-  let writeName=document.getElementById('write_name').value;
-  writeName= document.getElementById('user_name').innerHTML;
-  document.getElementById('container1').style.display="none";
-  document.getElementById('container2').style.display="block";
-  document.getElementById('container3').style.display="none";
-  document.getElementById('container4').style.display="none";
-}
-
-document.getElementById("btn_select").onclick= function situation(){
-
-  document.getElementById('container1').style.display="none";
-  document.getElementById('container2').style.display="none";
-  document.getElementById('container3').style.display="block";
-  document.getElementById('container4').style.display="none";
-
-
-}
- document.getElementById('btn_ggo').onclick= function insecurity(){
-
-   document.getElementById('container1').style.display="none";
-   document.getElementById('container2').style.display="none";
-   document.getElementById('container3').style.display="none";
-   document.getElementById('container4').style.display="block";
-
-
- }
-window.onload=start; */
+//5 pantalla
