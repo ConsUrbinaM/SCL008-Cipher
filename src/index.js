@@ -10,8 +10,8 @@ document.getElementById('container5').style.display="none";
 const firstButton= document.getElementById('btn_enter');
 firstButton.addEventListener('click',() =>{
   let name= document.getElementById("write_name").value;
-  let userText=  document.getElementById('user_name');
-user_name.innerHTML=`<h2>Bienvenida ${name}¿En qué situación te encuentras?</h2>`;
+  //let userText=  document.getElementById('user_name');
+document.getElementById('user_name').innerHTML=`<h2>Bienvenida ${name}¿En qué situación te encuentras?</h2>`;
 
 
   document.getElementById('container1').style.display="none";
@@ -37,6 +37,22 @@ document.getElementById('container4').style.display="block";
 
 //4 pantalla (acá es donde sucede la magia)
 
+
+// decirle que a presionar boton cifrar, llame al cipher.encode y ejecute el codigo
+  const quarterButton=document.getElementById('cipher');
+  quarterButton.addEventListener('click',() =>{
+
+    let numberOffset=document.getElementById('offset').value;
+    let encode=document.getElementById('mesagge').value;
+
+
+document.getElementById('mesagge_2').innerHTML+=cipher.encode(numberOffset,encode);
+
+
+
+  //  encodeMesagge.innerHTML=`${encode}`;
+
+/*
 const quarterButton=document.getElementById('cipher');
 quarterButton.addEventListener('click',() =>{
 
@@ -46,7 +62,7 @@ quarterButton.addEventListener('click',() =>{
 
   let numberOffset=document.getElementById('offset').value;
 
-  function cipher(numberOffset,encode){
+  function cifrado(numberOffset,encode){
     let result="";
     for (let i=0;i<encode.length;i++){
       let transformText=0;
@@ -55,9 +71,9 @@ quarterButton.addEventListener('click',() =>{
       concatenarCipher=String.fromCharCode((transformText-65+numberOffset)%26+65);
       result+=concatenarCipher;
           }
-          return result; 
+          return result;
   }
-
+*/
 
 
   document.getElementById('container4').style.display="none";
