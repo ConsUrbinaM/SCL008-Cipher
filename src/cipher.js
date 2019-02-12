@@ -6,7 +6,7 @@ window.cipher = {
       let transformText=0;
       transformText=encode.charCodeAt(i);
       let concatenarCipher="";
-      concatenarCipher=String.fromCharCode((transformText-65+numberOffset)%26+65);
+      concatenarCipher=String.fromCharCode((transformText-65+parseInt(numberOffset))%26+65);
       result+=concatenarCipher;
           }
           return result;
@@ -18,7 +18,7 @@ window.cipher = {
       let transformText=0;
       transformText=decode.charCodeAt(i);
       let concatenarDecipher="";
-      concatenarDecipher=String.fromCharCode((transformText-90-numberOffset)%26+90);
+      concatenarDecipher=String.fromCharCode((transformText-90-parseInt(numberOffset))%26+90);
       result+=concatenarDecipher;
           }
           return result;

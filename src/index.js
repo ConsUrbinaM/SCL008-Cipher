@@ -46,7 +46,8 @@ document.getElementById('container4').style.display="block";
 
     let numberOffset=document.getElementById('offset').value;
     let encode=document.getElementById('mesagge').value;
-
+    document.getElementById('mesagge').value="";
+    document.getElementById('offset').value="";
 
 document.getElementById('mesagge_2').innerHTML+=cipher.encode(numberOffset,encode);
 
@@ -59,11 +60,19 @@ fifthButton.addEventListener('click',() => {
 
 let numberOffset=document.getElementById('offset').value;
 let decode=document.getElementById('mesagge').value; 
+document.getElementById('mesagge').value="";
+  document.getElementById('offset').value="";
+  document.getElementById('mesagge_2').innerHTML="";
 
 document.getElementById('mesagge_2').innerHTML+=cipher.decode(numberOffset,decode);
 
+
+
+
 document.getElementById('container4').style.display="none";
 document.getElementById('container5').style.display="block";
+
+  
 
 
 })
@@ -73,6 +82,7 @@ sixthButton.addEventListener('click',() =>{
 
   document.getElementById('container5').style.display="none";
   document.getElementById('container4').style.display="block";
+  
 
 })
 
