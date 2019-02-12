@@ -11,7 +11,7 @@ const firstButton= document.getElementById('btn_enter');
 firstButton.addEventListener('click',() =>{
   let name= document.getElementById("write_name").value;
   //let userText=  document.getElementById('user_name');
-document.getElementById('user_name').innerHTML=`<h2>Bienvenida ${name}¿En qué situación te encuentras?</h2>`;
+document.getElementById('user_name').innerHTML=`<h4>Bienvenida ${name}¿En qué situación te encuentras?</h4>`;
 
 
   document.getElementById('container1').style.display="none";

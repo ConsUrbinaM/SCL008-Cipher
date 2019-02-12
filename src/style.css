@@ -20,6 +20,16 @@ height: 500px;
 text-align: center;
 }
 
+#container2 input {
+  display: block;
+}
+
+#container2 button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 #mesagge{
 width:450px;
 height:150px;
