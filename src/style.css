@@ -1,5 +1,5 @@
 body{
-  font-family:monospace;
+  font-family:SimHei;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(FOTOS/photo-1536619886419-2bde157d53bc.jpg);
@@ -9,7 +9,7 @@ body{
   /*background-color: #ffe6e6;
   margin: 50px 400px 100px 400px;
   border-radius: 12px*/
-background-color: #ffe6e6;
+background-color: #D6C2BE;
 padding: 40px;
 margin:10px 10px 10px 10px;
 margin-left: auto;
@@ -18,4 +18,41 @@ border-radius: 12px;
 width:450px;
 height: 500px;
 text-align: center;
+}
+
+#mesagge{
+width:450px;
+height:150px;
+}
+
+#mesagge_2{
+width:450px;
+height:150px;
+}
+
+.letraTitulo{
+  font-family: 'DigifaceWide';
+  font-style: normal;
+  font-weight: 600;
+
+} 
+
+.green{
+color: #31C21A;
+}
+
+.yellow{
+  color:#F7FA00;
+}
+
+.red{
+  color:#FA2600;
+}
+
+button {
+  border-radius: 10px;
+	padding: 5px 5px;
+  font-weight:bold;
+  background-color: #8FF366;
+
 }

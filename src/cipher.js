@@ -11,7 +11,17 @@ window.cipher = {
           }
           return result;
   },
-  decode: () => {
+  decode: (numberOffset,decode) => {
     /* Acá va tu código */
+    let result="";
+    for (let i=0;i<decode.length;i++){
+      let transformText=0;
+      transformText=decode.charCodeAt(i);
+      let concatenarDecipher="";
+      concatenarDecipher=String.fromCharCode((transformText-90-numberOffset)%26+90);
+      result+=concatenarDecipher;
+          }
+          return result;
+
   }
 };

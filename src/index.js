@@ -30,7 +30,9 @@ document.getElementById('container3').style.display="block";
 const thirdButton= document.getElementById('btn_go');
 thirdButton.addEventListener('click',() =>{
 
-document.getElementById('container3').style.display="none";
+alert("AMIGA!, sólo puedes escribir con MAYÚSCULAS ysinespacios, :)")
+
+  document.getElementById('container3').style.display="none";
 document.getElementById('container4').style.display="block";
 
 })
@@ -47,6 +49,32 @@ document.getElementById('container4').style.display="block";
 
 
 document.getElementById('mesagge_2').innerHTML+=cipher.encode(numberOffset,encode);
+
+document.getElementById('container4').style.display="none";
+  document.getElementById('container5').style.display="block";
+})
+
+const fifthButton=document.getElementById('decipher');
+fifthButton.addEventListener('click',() => {
+
+let numberOffset=document.getElementById('offset').value;
+let decode=document.getElementById('mesagge').value; 
+
+document.getElementById('mesagge_2').innerHTML+=cipher.decode(numberOffset,decode);
+
+document.getElementById('container4').style.display="none";
+document.getElementById('container5').style.display="block";
+
+
+})
+
+const sixthButton=document.getElementById('back');
+sixthButton.addEventListener('click',() =>{
+
+  document.getElementById('container5').style.display="none";
+  document.getElementById('container4').style.display="block";
+
+})
 
 
 
@@ -76,9 +104,6 @@ quarterButton.addEventListener('click',() =>{
 */
 
 
-  document.getElementById('container4').style.display="none";
-  document.getElementById('container5').style.display="block";
 
-})
 
 //5 pantalla
