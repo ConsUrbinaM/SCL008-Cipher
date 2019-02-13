@@ -30,9 +30,7 @@ Pedir ayuda de manera “cifrada” nos permite no exponer nuestro miedo frente 
 ![primer-prototipo](https://github.com/ConsUrbinaM/SCL008-Cipher/blob/master/src/FOTOS/prototipo/20190213_000716.jpg)
 
 #### 3. Creación del 2° prototipo de la aplicación, luego de recibir FeedBack y aplicar mejoras 
-![segundo-prototipo1](https://github.com/ConsUrbinaM/SCL008-Cipher/blob/master/src/FOTOS/prototipo/20190213_000743.jpg)
-![segundo-prototipo2](https://github.com/ConsUrbinaM/SCL008-Cipher/blob/master/src/FOTOS/prototipo/20190213_000801.jpg)
-![segundo-prototipo3](https://github.com/ConsUrbinaM/SCL008-Cipher/blob/master/src/FOTOS/prototipo/20190213_000819.jpg)
+![segundo-prototipo1](https://github.com/ConsUrbinaM/SCL008-Cipher/blob/master/src/FOTOS/prototipo/20190213_084512.jpg)
 
 #### 4. Testeo del prototipo análogo para finalmente dar con la idea final de la aplicación web
 
@@ -51,7 +49,7 @@ En cuanto al proceso de creación, fue necesario el siguiente paso a paso:
 
 ![aplicacion-web](https://github.com/ConsUrbinaM/SCL008-Cipher/blob/master/src/FOTOS/prototipo/imagen%20web.png)
 
-Aquí el link de [AmigasCifradas]:(https://consurbinam.github.io/SCL008-Cipher/src/index.html) 
+Aquí el link de [AmigasCifradas](https://consurbinam.github.io/SCL008-Cipher/src/index.html) 
 
 #### 6. Corroborar el funcionamiento de la APP, por medio de test
 
