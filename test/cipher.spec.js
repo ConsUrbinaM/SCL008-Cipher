@@ -18,6 +18,10 @@ describe('cipher', () => {
 //assert.equal busca la igualdad (dentro pongo la función(dentro pongo los parámetros,parámetro), coma, aquí va el resultado)
     assert.equal(cipher.encode(33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "HIJKLMNOPQRSTUVWXYZABCDEFG");
   });
+
+  it ('debería recibir como resultado sólo string',() => {
+    //quiero solo datos de tipo string
+    assert.typeOf(cipher.encode(2,"HOLA"),'string')
 });
 
   describe('cipher.decode', () => {
@@ -30,5 +34,14 @@ describe('cipher', () => {
     assert.equal(cipher.decode(33,"HIJKLMNOPQRSTUVWXYZABCDEFG"),"ABCDEFGHIJKLMNOPQRSTUVWXYZ" );
   });
 
+  describe('cipher.decode', () => {
+    
+    it('debería retornar "PWTIKWUWMABIA" para "HOLACOMOESTAS" con offset 200',()=>{
+      assert.equal(cipher.decode(200,"HOLACOMOESTAS"), "PWTIKWUWMABIA");
+    });
+
+  });
+
 });
 });
+}); 
