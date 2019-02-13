@@ -36,6 +36,8 @@ Pedir ayuda de manera “cifrada” nos permite no exponer nuestro miedo frente 
 
 #### 4. Testeo del prototipo análogo para finalmente dar con la idea final de la aplicación web
 
+Realizar testeos del prototipo análogo en 3 personas que contribuyan con nuevos FeedBack para la creación y el uso de la aplicación web
+
 #### 5. Creación de la aplicación web
 
 En cuanto al proceso de creación, fue necesario el siguiente paso a paso: 
@@ -45,14 +47,25 @@ En cuanto al proceso de creación, fue necesario el siguiente paso a paso:
 3.	Uso y manejo de offset(desplazamiento de letras para redactar un mensaje secreto) para calificar el nivel de incomodidad o riesgo 
 4.  Codificación del “Mensaje secreto”
 5.	Decodificación del “Mensaje secreto”
+6.  Aplicación de estilos mediante CSS 
 
 ![aplicacion-web](https://github.com/ConsUrbinaM/SCL008-Cipher/blob/master/src/FOTOS/prototipo/imagen%20web.png)
 
-LINK
+Aquí el link de [AmigasCifradas]:(https://consurbinam.github.io/SCL008-Cipher/src/index.html) 
 
 #### 6. Corroborar el funcionamiento de la APP, por medio de test
 
 1. Corroborar que las funciones que cree, para dar uso del cifrado y decifrado, efectivamente funcionen
-2. Comprobar el uso del offset
-3. Comprobar el retorno de "strings"
+2. Comprobar el uso del offset para codificar y decodificar un mensaje 
+3. Comprobar que el mensaje que retorna siempre sea un "String"
+
+#### 7. Tareas por hacer 
+
+En cuanto al proceso de aprendizaje y construcción de la aplicación web, siempre quedarán instancias para mejorar y darle un buen uso por medio de: 
+
+1. Practicas constantes de programación 
+2. Testeo de la usabilidad de la app digital 
+3. Mejoras del diseño 
+
+
 
