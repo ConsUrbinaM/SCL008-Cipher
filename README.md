@@ -38,14 +38,21 @@ Pedir ayuda de manera “cifrada” nos permite no exponer nuestro miedo frente 
 
 #### 5. Creación de la aplicación web
 
-1.	Incorporar el cambio de pantallas 
-2.	Desarrollo de pantallas descriptivas
-3.	Uso de botones
-4.	Uso de offset(desplazamiento de letras para redactar un mensaje secreto) para calificar el nivel de incomodidad o riesgo 
-5.	Codificación del “Mensaje secreto”
-6.	Decodificación del “Mensaje secreto”
+En cuanto al proceso de creación, fue necesario el siguiente paso a paso: 
 
-![aplicacion-web]()
+1.	Desarrollo de pantallas descriptivas con texto e imágenes 
+2.	Incorporar el cambio de pantallas por medio de botones
+3.	Uso y manejo de offset(desplazamiento de letras para redactar un mensaje secreto) para calificar el nivel de incomodidad o riesgo 
+4.  Codificación del “Mensaje secreto”
+5.	Decodificación del “Mensaje secreto”
+
+![aplicacion-web](https://github.com/ConsUrbinaM/SCL008-Cipher/blob/master/src/FOTOS/prototipo/imagen%20web.png)
 
 LINK
+
+#### 6. Corroborar el funcionamiento de la APP, por medio de test
+
+1. Corroborar que las funciones que cree, para dar uso del cifrado y decifrado, efectivamente funcionen
+2. Comprobar el uso del offset
+3. Comprobar el retorno de "strings"
 
