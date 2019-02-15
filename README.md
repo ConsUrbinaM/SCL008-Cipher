@@ -12,16 +12,16 @@ Está pensada para cualquier mujer, desde los 15 años en adelante, que se sient
 
 Surge como una _**plataforma amigable**_ que pretende aportar a la problemática actual en la que las mujeres nos enfrentamos constantemente a diferentes escenarios "inofensivos” pero que de una u otra forma nos mantienen alerta. 
 
-¿Cuántas de nosotras no nos hemos sentido inseguras al momento de viajar en un UBER? O bien cuando hemos decidido tener una cita con alguien que jamás hemos visto, y tenemos la incertidumbre de ¿cómo vaya a resultar el encuentro?  Y así, existen un sinfín de contextos en los que nos vemos **atrapadas** y necesitamos **pedir ayuda**. 
+¿Cuántas de nosotras no nos hemos sentido inseguras al momento de viajar en un UBER? O bien cuando hemos decidido tener una cita con alguien que jamás hemos visto, y tenemos la incertidumbre de ¿cómo vaya a resultar el encuentro? Para nosotras existen un sinfín de contextos en los que nos vemos **atrapadas** y necesitamos **pedir ayuda**. 
 
-Pedir ayuda de manera “cifrada” nos permite no exponer nuestro miedo frente a quien lo provoca, pero si informarlo y solucionarlo de manera confiable con nuestras amigas, quienes podrán “descifrar” nuestro mensaje y tomar medidas al respecto.   Si bien, no va a terminar con todas las situaciones peligrosas a las que nos exponemos, será una importante ayuda para fortalecer los lazos con una de  nuestras redes  fundamentales: **las amigas**.
+Pedir ayuda de manera _“cifrada”_ nos permite **no exponer nuestro miedo** frente a quien lo provoca, pero si informarlo y solucionarlo de manera confiable con nuestras amigas, quienes podrán “descifrar” nuestro mensaje y tomar medidas al respecto.   Si bien, no va a terminar con todas las situaciones peligrosas a las que nos exponemos, será una importante ayuda para fortalecer los lazos con una de  nuestras redes  fundamentales: **las amigas**.
 
 ## PLANIFICACIÓN 
 
 #### 1. Creación de un plan de trabajo con metodología ágil:
 -	Uso de [Trello](https://trello.com/b/LJDmNBHa/proyecto-cifrado-c%C3%A9sar)
 * Planifiación de grandes tareas que de desglosan en más pequeñas
-* Incluye tareas por hacer, en proceso y  realizadas, con propósitos diarios a cumplir , resolución de problemas que aparecían durante el proceso y mejoras que implementar. 
+* Incluye tareas por hacer, en proceso y  realizadas, con propósitos diarios a cumplir , resolución de problemas que aparecían durante el proceso y mejoras que implementar
 * Uso de Check-list
 
 
@@ -61,7 +61,7 @@ Aquí el link de [AmigasCifradas](https://consurbinam.github.io/SCL008-Cipher/sr
 
 En cuanto al proceso de aprendizaje y construcción de la aplicación web, siempre quedarán instancias para mejorar y darle un buen uso por medio de: 
 
-1. Practicas constantes de programación 
+1. Prácticas constantes de programación 
 2. Testeo de la usabilidad de la app digital 
 3. Mejoras del diseño 
 

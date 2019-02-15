@@ -44,76 +44,44 @@ document.getElementById('container4').style.display="block";
   const quarterButton=document.getElementById('cipher');
   quarterButton.addEventListener('click',() =>{
 
+    document.getElementById('container4').style.display="none";
+    document.getElementById('container5').style.display="block";
+
     let numberOffset=document.getElementById('offset').value;
+    document.getElementById('offset').value="";
     let encode=document.getElementById('mesagge').value;
     document.getElementById('mesagge').value="";
-    document.getElementById('offset').value="";
+       
 
-document.getElementById('mesagge_2').innerHTML+=cipher.encode(numberOffset,encode);
+  document.getElementById('mesagge_2').value=cipher.encode(numberOffset,encode);
 
-document.getElementById('container4').style.display="none";
-  document.getElementById('container5').style.display="block";
-})
+  })
 
 const fifthButton=document.getElementById('decipher');
 fifthButton.addEventListener('click',() => {
 
-let numberOffset=document.getElementById('offset').value;
-let decode=document.getElementById('mesagge').value; 
-document.getElementById('mesagge').value="";
-  document.getElementById('offset').value="";
-  document.getElementById('mesagge_2').innerHTML="";
-
-document.getElementById('mesagge_2').innerHTML+=cipher.decode(numberOffset,decode);
-
-
-
-
-document.getElementById('container4').style.display="none";
-document.getElementById('container5').style.display="block";
-
   
+  document.getElementById('container4').style.display="none";
+  document.getElementById('container5').style.display="block";
 
+  let offsetNumber=document.getElementById('offset').value;
+  document.getElementById('offset').value="";
+  let decode=document.getElementById('mesagge').value; 
+    document.getElementById('mesagge').value="";
+      
+  document.getElementById('mesagge_2').value=cipher.decode(offsetNumber,decode);
 
 })
 
 const sixthButton=document.getElementById('back');
+
 sixthButton.addEventListener('click',() =>{
 
-  document.getElementById('container5').style.display="none";
+   document.getElementById('container5').style.display="none";
   document.getElementById('container4').style.display="block";
-  
-
+ 
 })
 
 
 
-  //  encodeMesagge.innerHTML=`${encode}`;
 
-/*
-const quarterButton=document.getElementById('cipher');
-quarterButton.addEventListener('click',() =>{
-
-  let encode=document.getElementById('mesagge').value;
-  let encodeMesagge=document.getElementById('mesagge_2');
-  encodeMesagge.innerHTML=`${encode}`;
-
-  let numberOffset=document.getElementById('offset').value;
-
-  function cifrado(numberOffset,encode){
-    let result="";
-    for (let i=0;i<encode.length;i++){
-      let transformText=0;
-      transformText=encode.charCodeAt(i);
-      let concatenarCipher="";
-      concatenarCipher=String.fromCharCode((transformText-65+numberOffset)%26+65);
-      result+=concatenarCipher;
-          }
-          return result;
-  }
-*/
-
-
-
-
-//5 pantalla
